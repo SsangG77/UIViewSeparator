@@ -6,7 +6,7 @@
 
 import UIKit
 
-extension UIView {
+public extension UIView {
     func addSeparator(color: UIColor = .black, height: CGFloat = 1) {
         let separator = UIView()
         separator.backgroundColor = color
