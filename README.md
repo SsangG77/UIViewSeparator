@@ -1,7 +1,7 @@
 # UIViewSeparator
 
 A lightweight and easy-to-use library for adding a separator (divider) to the bottom of any `UIView`.  
-With `UIViewSeparator`, you can quickly add a customizable bottom line without writing extra code.
+With `addBottomSeparator`, you can quickly add a customizable bottom line without writing extra code.
 
 ## Features
 - Easily add a bottom separator to any `UIView`.
@@ -21,13 +21,13 @@ https://github.com/SsangG77/UIViewSeparator.git
 ## Usage
 
 ### Adding a Separator to a UIView
-Simply call `.addSeparator()` on any `UIView` to add a bottom separator.
+Simply call `.addBottomSeparator()` on any `UIView` to add a bottom separator.
 
 ```swift
 import UIViewSeparator
 
 let view = UIView()
-view.addSeparator()
+view.addBottomSeparator()
 ```
 
 
@@ -36,7 +36,7 @@ You can customize the separator with the following parameters:
 
 ```swift
 import UIViewSeparator
-view.separator(color: .gray , height: 2, spacing: 12)
+view.addBottomSeparator(color: .gray , height: 2, spacing: 12)
 ```
 
 
